@@ -6,18 +6,9 @@
 	This project is about web page of 'Sal de oro'
 </h3>
 
-<p align="center">
-	<img src="https://img.shields.io/github/license/cristobal.nyram/?color=green"/>
-	<img src="https://img.shields.io/github/contributors/cristobal.nyram/?color=green"/>
-</p>
 
-<p align="center">
-	<a href="#tech-stack">Tech Stack</a> •
-	<a href="#contact">Contact</a> 
-</p>
 
-## Tech Stack
-<img src="https://img.shields.io/badge/Bootstrap-05122A?style=flat&logo=bootstrap" alt="bootstrap Badge" height="25">&nbsp;
+
 
 ## Contact
 <img align="left" src="https://avatars.githubusercontent.com/CristobalNyram?size=100">
