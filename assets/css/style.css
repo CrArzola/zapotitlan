@@ -14,16 +14,21 @@ section
 
 .content-article-show
 {
-    height: 50vh;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr 1fr .45fr;
+    grid-template-areas:'description-product product-img'
+                         'description-product product-img'
+                         'button-product button-product' ;
+
+    height:40vh ;
     
 
 }
 .content-article__img
 {
+    grid-area: product-img;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,26 +44,32 @@ section
 }
 .content-article__description
 {
+    grid-area: description-product;
+
     display: flex;
     flex-direction: column;
     
     justify-content: center;
 
-    margin-left: .6rem;
+    margin-left: .4rem;
     
 }
 
 .content-article-show__description_text
 {
+
     font-weight: 500;
 
     color: var(--white-custom);
 
 }
-
-/* buttons start */
-
-
+.content-article__button
+{
+    grid-area: button-product;
+    display: flex;
+    margin-top:.5rem ;
+    justify-content: center;
+}
 
 .btn__custom
 {
