@@ -10,6 +10,10 @@
 {
     background-color: var(--green-sunny);
 }
+.gray_custom
+{
+    background-color: var(--gray);
+}
 .color-white-custom
 {
     color: var(--white-custom);
