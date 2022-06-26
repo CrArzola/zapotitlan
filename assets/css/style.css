@@ -142,7 +142,7 @@ header
 {
 
     border-radius: 100px;
-    border: 1px solid;
+    border: 2px solid;
     
     color: var(--white-custom);
     font-weight: 600;
@@ -229,4 +229,17 @@ header
     justify-content: center;
     
     margin-top: 1rem;
+}
+footer
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+
+}
+footer ul
+{
+    display: flex;
 }
