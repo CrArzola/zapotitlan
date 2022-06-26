@@ -1,6 +1,10 @@
 :root{
-    --green-sunny:rgb(103, 180, 65);
+    --green-sunny:#67b441;
     --white-custom:white;
+    --gray:#F5FBF0;
+
+    /* --black:#2F4858; */
+    --black:rgba(0, 0, 0, 0.807);
 }
 .green_sunny
 {
@@ -17,6 +21,56 @@ section
     width: 100%;
 }
 
+header
+{
+    height: 80vh;
+
+    background-color: var(--gray);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr .5fr 1fr .25fr;
+    grid-template-areas: "header-title  header-title header-img header-img"
+                         "header-title  header-title header-img header-img"
+                         "header-description header-description header-img header-img"
+                         " header-button  header-button  header-button  header-button"
+
+
+                    ;
+
+}
+
+.header__title
+{
+    grid-area: header-title;
+    /* background-color: rgb(51, 0, 255); */
+}
+.header__img
+{
+    grid-area: header-img;
+    /* background-color: rebeccapurple; */
+}
+.header__description
+{
+    grid-area:header-description;
+    /* background-color: red; */
+}
+.header__button
+{
+    grid-area: header-button; 
+    display: flex;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+
+}
+.header__button button
+{
+    color: var(--green-sunny);
+    font-weight: bold;
+    
+    border:2px solid;
+    border-color: var(--green-sunny);
+}
 
 .content-article-show
 {
@@ -58,8 +112,11 @@ section
     justify-content: center;
 
     margin-left: .4rem;
+
+    
     
 }
+
 
 .content-article-show__description_text
 {
@@ -94,7 +151,7 @@ section
 /* Recipes start  */
 .container-recipe
 {
-    background-color: beige;
+    background-color: var(--gray);
     width: 100%;
     height: 40vh;
 
@@ -113,9 +170,16 @@ section
     margin-top: 1rem;
 }
 
-.recipes__descrition
+.recipes__description
 {
     grid-area: recipe-description;
+  
+}
+.recipes__description p
+{
+    text-align: center;
+    color:var(--black);
+    font-weight: bold;
 }
 .recipes__button
 {
@@ -123,4 +187,46 @@ section
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+}
+.recipes__button button
+{
+    color: var(--green-sunny);
+    font-weight: bold;
+    
+    border:2px solid;
+    border-color: var(--green-sunny);
+
+}
+
+/* contact us start */
+.container-contact-us
+{
+    height: 25vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .6fr .1fr;
+ 
+
+}
+.contact-us__text
+{
+    display: flex;
+    justify-content: center;
+}
+.contact-us__text p
+{
+    text-align: center;
+    font-weight: bold;
+
+    margin-top: 1rem;
+}
+.contact-us__button
+{
+
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    margin-top: 1rem;
 }
