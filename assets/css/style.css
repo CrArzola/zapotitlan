@@ -265,19 +265,42 @@ header
 }
 
 /* section video end */
+
+/* footer start */
 footer
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+
+    padding-top:2rem ;
 
 }
 footer ul
 {
+
     display: flex;
+    justify-content: space-around;
+    
+    width: 90%;
 }
+.container-icons .item-icon img
+{
+    width:4rem;
+}
+footer .footer-title
+{
+    color: var(--white);
+
+    font-size: .9rem;
+    font-weight: bold;
+
+    margin-bottom: 2rem;
+} 
+/* foooter end */
+
+
 
 /* nav bar  */
 
@@ -347,7 +370,7 @@ footer ul
     right: 0;
 
     margin-top: .4rem;
-    margin-right: .4rem;
+    margin-right: 4rem;
 
 
     padding: 1rem;
@@ -360,7 +383,7 @@ footer ul
 }
 
 @media only screen and (min-width:768px){
-.container-menu{
+container-menu{
     display: none;
 }
 }
