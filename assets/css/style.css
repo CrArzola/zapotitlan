@@ -7,6 +7,28 @@
     /* --black:#2F4858; */
     --black:rgba(0, 0, 0, 0.807);
 }
+.font-weight-bold
+{
+    font-weight: bold;
+    
+}
+.d-flex
+{
+    display: flex;
+}
+.justify-align-center
+{
+    justify-content: center;
+    align-items: center;
+}
+.title-section
+{
+    height: 25vh;
+}
+.section-main
+{
+    height: 80vh;
+}
 .green_sunny
 {
     background-color: var(--green-sunny);
@@ -432,6 +454,7 @@ footer .footer-title
 .header__img img
 {
     width: 30rem;
+    
 }
 
 /* header end */
@@ -444,6 +467,7 @@ footer .footer-title
 .content-article__img img
 {
     width: 16.5rem;
+    
 }
 .content-article__description
 {
