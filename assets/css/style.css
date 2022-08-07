@@ -413,12 +413,67 @@ footer .footer-title
     width:4rem;
 }
 
-@media only screen and (min-width:768px){
+
+
+/* reponsive start */
+@media only screen and (min-width:750px){
 container-menu{
     display: none;
 }
+
+/* header  start*/
+.header__description
+{
+    margin-left:.5rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
 }
-@media only screen and (max-width: 768px) {
+.header__img img
+{
+    width: 30rem;
+}
+
+/* header end */
+
+/* second section start */
+.content-article-show
+{
+    padding-top:2rem;
+}
+.content-article__img img
+{
+    width: 16.5rem;
+}
+.content-article__description
+{
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+.recipes__description p
+{
+    font-size: 1.9rem;
+}
+.contact-us__text p
+{
+    font-size: 2.5rem;
+}
+footer ul
+{
+
+    justify-content: center;
+    
+    width: 90%;
+}
+footer ul li
+{
+    margin: 0 .5rem;
+}
+/* second section end*/
+
+}
+
+
+@media only screen and (max-width: 750px) {
    
    nav
    {
@@ -427,3 +482,4 @@ container-menu{
 
    
 }
+/* reponsive end */
